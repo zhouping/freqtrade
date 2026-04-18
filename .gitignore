@@ -5,13 +5,24 @@ config*.json
 *.sqlite-wal
 logfile.txt
 user_data/*
-!user_data/strategy/sample_strategy.py
+!user_data/strategy
+!user_data/strategies
 !user_data/notebooks
 !user_data/models
 !user_data/freqaimodels
 user_data/freqaimodels/*
 user_data/models/*
 user_data/notebooks/*
+# Data files - keep directory, ignore content
+user_data/data/*
+# Results and logs
+user_data/backtest_results/*
+user_data/hyperopt_results/*
+user_data/logs/*
+user_data/plot/*
+
+# Keep .gitkeep files
+!.gitkeep
 freqtrade-plot.html
 freqtrade-profit-plot.html
 freqtrade/rpc/api_server/ui/*
