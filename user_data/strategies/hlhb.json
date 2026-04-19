@@ -1,0 +1,25 @@
+{
+  "strategy_name": "hlhb",
+  "params": {
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.0117,
+      "trailing_stop_positive_offset": 0.0186,
+      "trailing_only_offset_is_reached": true
+    },
+    "max_open_trades": {
+      "max_open_trades": 5
+    },
+    "roi": {
+      "0": 0.245,
+      "11": 0.07,
+      "67": 0.025,
+      "160": 0
+    },
+    "stoploss": {
+      "stoploss": -0.247
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2026-04-18 18:42:26.995366+00:00"
+}
