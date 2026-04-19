@@ -15,5 +15,5 @@ Freqtrade 项目的目录及操作规范：
 1、自编代码存 scripts，历史K线数据存 data目录，操作日志/报错信息存 logs目录
 2、策略回测/优化操作的结果保存在backtest_results目录，保存方式必须遵循 notebooks/回测结果保存说明.md 中的规定
 3、回测/优化遇到问题，查看 '策略测试相关问题.md' 中是否有解决办法
-
+4、必须使用 freqtrade 进行回测/优化等操作，严禁编写什么standalone 脚本绕过 freqtrade !!!
 
