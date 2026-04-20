@@ -1,0 +1,39 @@
+{
+  "strategy_name": "GodStra_hyperopt",
+  "params": {
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.238,
+      "trailing_stop_positive_offset": 0.337,
+      "trailing_only_offset_is_reached": true
+    },
+    "max_open_trades": {
+      "max_open_trades": 3
+    },
+    "buy": {
+      "buy_cross": "volume_cmf",
+      "buy_indicator": "volatility_bbh",
+      "buy_int": 6,
+      "buy_oper": ">I",
+      "buy_real": 0.6846522479573
+    },
+    "sell": {
+      "sell_cross": "volume_cmf",
+      "sell_indicator": "trend_macd_signal",
+      "sell_int": 47,
+      "sell_oper": "=",
+      "sell_real": 0.6363452086697
+    },
+    "roi": {
+      "0": 0.242,
+      "27": 0.109,
+      "66": 0.04,
+      "176": 0
+    },
+    "stoploss": {
+      "stoploss": -0.23
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2026-04-20 18:47:48.714497+00:00"
+}
