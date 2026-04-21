@@ -1,5 +1,5 @@
 {
-  "strategy_name": "UniversalMACD",
+  "strategy_name": "PowerTower",
   "params": {
     "trailing": {
       "trailing_stop": false,
@@ -11,23 +11,21 @@
       "max_open_trades": 5
     },
     "buy": {
-      "buy_umacd_max": 0.04784,
-      "buy_umacd_min": -0.0294
+      "buy_pow": 0.625
     },
     "sell": {
-      "sell_umacd_max": 0.0441,
-      "sell_umacd_min": -0.02065
+      "sell_pow": 0.864
     },
     "roi": {
-      "0": 0.245,
-      "353": 0.152,
-      "688": 0.082,
-      "1329": 0
+      "0": 0.263,
+      "418": 0.118,
+      "832": 0.042,
+      "1920": 0
     },
     "stoploss": {
-      "stoploss": -0.269
+      "stoploss": -0.206
     }
   },
   "ft_stratparam_v": 1,
-  "export_time": "2026-04-21 00:19:29.505064+00:00"
+  "export_time": "2026-04-21 00:22:12.611768+00:00"
 }
