@@ -11,29 +11,29 @@
       "max_open_trades": 5
     },
     "buy": {
-      "buy_div_max": 1.1675,
-      "buy_div_min": 0.1858,
-      "buy_fast_ma_timeframe": 27,
-      "buy_mojo_ma_timeframe": 47,
-      "buy_slow_ma_timeframe": 68
+      "buy_div_max": 1.2732,
+      "buy_div_min": 0.2676,
+      "buy_fast_ma_timeframe": 30,
+      "buy_mojo_ma_timeframe": 28,
+      "buy_slow_ma_timeframe": 97
     },
     "sell": {
-      "sell_div_max": 0.3641,
-      "sell_div_min": 1.9765,
-      "sell_fast_ma_timeframe": 22,
-      "sell_mojo_ma_timeframe": 14,
-      "sell_slow_ma_timeframe": 12
+      "sell_div_max": 0.8961,
+      "sell_div_min": 0.921,
+      "sell_fast_ma_timeframe": 29,
+      "sell_mojo_ma_timeframe": 73,
+      "sell_slow_ma_timeframe": 86
     },
     "roi": {
-      "0": 0.598,
-      "147": 0.154,
-      "336": 0.046,
-      "1730": 0
+      "0": 0.309,
+      "335": 0.129,
+      "670": 0.053,
+      "2017": 0
     },
     "stoploss": {
-      "stoploss": -0.31
+      "stoploss": -0.304
     }
   },
   "ft_stratparam_v": 1,
-  "export_time": "2026-04-20 23:37:20.593607+00:00"
+  "export_time": "2026-04-21 02:31:49.919843+00:00"
 }

@@ -1,3 +1,5 @@
+#严重警告！严禁使用 "现货模式+期货数据" 方式进行回测和hyperopt操作！！！
+
 # 策略回测_优化_OKX_代理_经验
 
 > 测试日期: 2026-04-20
@@ -24,19 +26,10 @@
 - freqtrade 明确不支持 OKX 的 `futures` 交易模式
 - 错误信息: `Freqtrade does not support 'futures' on OKX`
 
-### 2.2 解决方案: 现货模式 + 期货数据
+### 2.2 解决方案: 
+停止回测！禁止使用“现货模式 + 期货数据”！！！
 
-**配置文件关键设置:**
-```json
-{
-  "exchange": {
-    "name": "okx",
-    "pair_whitelist": ["BTC/USDT"]
-  },
-  "trading_mode": "spot",
-  "dataformat_ohlcv": "feather"
-}
-```
+
 
 ### 2.3 数据准备
 
@@ -252,7 +245,7 @@ Exchange OKX has 1196 active pairs.
 
 ### Q4: "Freqtrade does not support 'futures' on OKX"
 - **原因**: OKX 期货模式不被 freqtrade 支持
-- **解决**: 使用现货模式 + 期货数据
+- **解决**: 停止回测！禁止使用现货模式 + 期货数据！！
 
 ### Q5: "No data found"
 - **原因**: 数据文件位置或格式不匹配
@@ -299,8 +292,7 @@ env | grep -i proxy
 | 交易所 | 现货模式 | 期货模式 | 备注 |
 |--------|----------|----------|------|
 | OKX | ✅ | ❌ 不支持 | Freqtrade 不支持 OKX futures |
-| Gate | ✅ | ✅ | 需要合并数据文件 |
-| Binance | ✅ | ✅ | 被代理封禁 |
+
 
 ---
 

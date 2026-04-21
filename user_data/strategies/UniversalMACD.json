@@ -11,23 +11,23 @@
       "max_open_trades": 5
     },
     "buy": {
-      "buy_umacd_max": 0.04784,
-      "buy_umacd_min": -0.0294
+      "buy_umacd_max": -0.01697,
+      "buy_umacd_min": -0.03377
     },
     "sell": {
-      "sell_umacd_max": 0.0441,
-      "sell_umacd_min": -0.02065
+      "sell_umacd_max": 0.04251,
+      "sell_umacd_min": 0.00035
     },
     "roi": {
-      "0": 0.245,
-      "353": 0.152,
-      "688": 0.082,
-      "1329": 0
+      "0": 0.539,
+      "460": 0.229,
+      "706": 0.082,
+      "1430": 0
     },
     "stoploss": {
-      "stoploss": -0.269
+      "stoploss": -0.244
     }
   },
   "ft_stratparam_v": 1,
-  "export_time": "2026-04-21 00:19:29.505064+00:00"
+  "export_time": "2026-04-21 01:23:20.821399+00:00"
 }

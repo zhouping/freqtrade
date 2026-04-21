@@ -11,23 +11,23 @@
       "max_open_trades": 5
     },
     "buy": {
-      "buy_hour_max": 24,
-      "buy_hour_min": 4
+      "buy_hour_max": 17,
+      "buy_hour_min": 12
     },
     "sell": {
-      "sell_hour_max": 21,
-      "sell_hour_min": 22
+      "sell_hour_max": 0,
+      "sell_hour_min": 2
     },
     "roi": {
-      "0": 0.095,
-      "19": 0.056,
-      "77": 0.015,
-      "165": 0
+      "0": 0.413,
+      "412": 0.087,
+      "686": 0.027,
+      "1983": 0
     },
     "stoploss": {
-      "stoploss": -0.339
+      "stoploss": -0.214
     }
   },
   "ft_stratparam_v": 1,
-  "export_time": "2026-04-18 18:19:51.892269+00:00"
+  "export_time": "2026-04-21 01:29:26.918703+00:00"
 }

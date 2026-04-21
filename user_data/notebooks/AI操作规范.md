@@ -1,4 +1,6 @@
 
+#严重警告！严禁使用 "现货模式+期货数据" 方式进行回测和hyperopt操作！！！
+
 Freqtrade 项目的目录及操作规范：
 
 • 项目根目录：/home/kali/Project/freqtrade/

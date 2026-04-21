@@ -11,27 +11,27 @@
       "max_open_trades": 5
     },
     "buy": {
-      "buy_fastd": 1,
-      "buy_fishRsiNorma": 5,
-      "buy_rsi": 26,
-      "buy_volumeAVG": 150
+      "buy_fastd": 23,
+      "buy_fishRsiNorma": 54,
+      "buy_rsi": 41,
+      "buy_volumeAVG": 81
     },
     "sell": {
-      "sell_fishRsiNorma": 30,
-      "sell_minusDI": 4,
-      "sell_rsi": 74,
-      "sell_trigger": "rsi-macd-minusdi"
+      "sell_fishRsiNorma": 9,
+      "sell_minusDI": 92,
+      "sell_rsi": 64,
+      "sell_trigger": "sar-fisherRsi"
     },
     "roi": {
-      "0": 0.095,
-      "18": 0.053,
-      "38": 0.029,
-      "69": 0
+      "0": 0.388,
+      "272": 0.178,
+      "564": 0.026,
+      "1910": 0
     },
     "stoploss": {
-      "stoploss": -0.143
+      "stoploss": -0.263
     }
   },
   "ft_stratparam_v": 1,
-  "export_time": "2026-04-18 18:39:28.634446+00:00"
+  "export_time": "2026-04-21 02:28:16.012070+00:00"
 }

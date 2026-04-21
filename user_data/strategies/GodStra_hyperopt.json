@@ -8,32 +8,32 @@
       "trailing_only_offset_is_reached": true
     },
     "max_open_trades": {
-      "max_open_trades": 3
+      "max_open_trades": 5
     },
     "buy": {
-      "buy_cross": "volume_cmf",
-      "buy_indicator": "volatility_bbh",
-      "buy_int": 6,
-      "buy_oper": ">I",
-      "buy_real": 0.6846522479573
+      "buy_cross": "momentum_roc",
+      "buy_indicator": "trend_adx",
+      "buy_int": 9,
+      "buy_oper": "<I",
+      "buy_real": 0.8713047315498
     },
     "sell": {
-      "sell_cross": "volume_cmf",
-      "sell_indicator": "trend_macd_signal",
-      "sell_int": 47,
-      "sell_oper": "=",
-      "sell_real": 0.6363452086697
+      "sell_cross": "momentum_tsi",
+      "sell_indicator": "momentum_wr",
+      "sell_int": 90,
+      "sell_oper": ">R",
+      "sell_real": 0.5793412793208
     },
     "roi": {
-      "0": 0.242,
-      "27": 0.109,
-      "66": 0.04,
-      "176": 0
+      "0": 0.423,
+      "269": 0.194,
+      "738": 0.081,
+      "1796": 0
     },
     "stoploss": {
-      "stoploss": -0.23
+      "stoploss": -0.22
     }
   },
   "ft_stratparam_v": 1,
-  "export_time": "2026-04-20 18:47:48.714497+00:00"
+  "export_time": "2026-04-21 01:00:58.110057+00:00"
 }
