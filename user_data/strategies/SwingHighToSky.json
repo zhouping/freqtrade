@@ -1,0 +1,37 @@
+{
+  "strategy_name": "SwingHighToSky",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 5
+    },
+    "buy": {
+      "buy_cci": 63,
+      "buy_cciTime": 21,
+      "buy_rsi": 38,
+      "buy_rsiTime": 68
+    },
+    "sell": {
+      "sell_cci": -20,
+      "sell_cciTime": 50,
+      "sell_rsi": 81,
+      "sell_rsiTime": 40
+    },
+    "roi": {
+      "0": 0.416,
+      "365": 0.226,
+      "615": 0.084,
+      "1094": 0
+    },
+    "stoploss": {
+      "stoploss": -0.312
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2026-04-21 00:16:18.044183+00:00"
+}

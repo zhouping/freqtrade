@@ -1,0 +1,40 @@
+{
+  "max_open_trades": 3,
+  "stake_currency": "USDT",
+  "stake_amount": 1000,
+  "dry_run": true,
+  "dry_run_wallet": 10000,
+  "unfilledtimeout": {
+    "entry": 10,
+    "exit": 10,
+    "unit": "minutes"
+  },
+  "entry_pricing": {
+    "price_side": "same",
+    "use_order_book": true,
+    "order_book_depth": "0.01%"
+  },
+  "exit_pricing": {
+    "price_side": "same",
+    "use_order_book": true,
+    "order_book_depth": "0.01%"
+  },
+  "exchange": {
+    "name": "binance",
+    "key": "",
+    "secret": "",
+    "ccxt_config": {
+      "enableRateLimit": true,
+      "aiohttp_trust_env": true,
+      "testnet": true
+    },
+    "pair_whitelist": ["BTC/USDT"],
+    "trading_mode": "spot"
+  },
+  "pairlists": [
+    {
+      "method": "StaticPairList"
+    }
+  ],
+  "timeframe": "5m"
+}

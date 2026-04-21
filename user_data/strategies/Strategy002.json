@@ -1,0 +1,25 @@
+{
+  "strategy_name": "Strategy002",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": 0.01,
+      "trailing_stop_positive_offset": 0.02,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 5
+    },
+    "roi": {
+      "0": 0.21,
+      "11": 0.085,
+      "70": 0.02,
+      "185": 0
+    },
+    "stoploss": {
+      "stoploss": -0.342
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2026-04-18 18:35:13.965581+00:00"
+}

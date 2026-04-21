@@ -1,0 +1,33 @@
+{
+  "strategy_name": "MultiMa",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 5
+    },
+    "buy": {
+      "buy_ma_count": 15,
+      "buy_ma_gap": 92
+    },
+    "sell": {
+      "sell_ma_count": 1,
+      "sell_ma_gap": 92
+    },
+    "roi": {
+      "0": 0.266,
+      "464": 0.192,
+      "1071": 0.033,
+      "2261": 0
+    },
+    "stoploss": {
+      "stoploss": -0.092
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2026-04-21 02:37:23.917219+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "strategy_name": "UniversalMACD",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 5
+    },
+    "buy": {
+      "buy_umacd_max": -0.01697,
+      "buy_umacd_min": -0.03377
+    },
+    "sell": {
+      "sell_umacd_max": 0.04251,
+      "sell_umacd_min": 0.00035
+    },
+    "roi": {
+      "0": 0.539,
+      "460": 0.229,
+      "706": 0.082,
+      "1430": 0
+    },
+    "stoploss": {
+      "stoploss": -0.244
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2026-04-21 01:23:20.821399+00:00"
+}

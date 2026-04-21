@@ -1,0 +1,15 @@
+{
+    "exchange": {
+        "name": "okx",
+        "key": "",
+        "secret": "",
+        "ccxt_config": {
+            "proxies": {
+                "http": "http://127.0.0.1:7897",
+                "https": "http://127.0.0.1:7897"
+            }
+        }
+    },
+    "dry_run": true,
+    "trading_mode": "spot"
+}
